@@ -9,6 +9,7 @@ export default function NextBanner(props: any) {
       <Transparent />
       <Background style={{ backgroundImage: `url(${props.img})` }}>
         <LeftSpacer
+          style={{ borderTop: `20px solid ${props.colorLeft}` }}
           data-aos="fade-right"
           data-aos-easing="linear"
           data-aos-duration="1500"
@@ -17,10 +18,11 @@ export default function NextBanner(props: any) {
           <Logo data-aos="zoom-in" data-aos-duration="1500" />
           <DirectText data-aos="zoom-in" data-aos-duration="1500">
             {" "}
-            Explore Iberia{" "}
+            {props.buttonTxt}{" "}
           </DirectText>
         </div>
         <RightSpacer
+          style={{ borderBottom: `20px solid ${props.colorRight}` }}
           data-aos="fade-left"
           data-aos-easing="linear"
           data-aos-duration="1500"

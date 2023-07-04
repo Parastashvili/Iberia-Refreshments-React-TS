@@ -18,16 +18,14 @@ export default function HeroBanner() {
         data-aos-duration="1500"
       />
       <Text data-aos="fade-up" data-aos-duration="1500">
-        Revery Group is an international investment firm focused on developing
-        high-growth businesses and brands, through a disciplined M&A process and
-        an evergreen operational strategy for each portfolio company.
-        <br />
-        <br /> We achieve this through engaging strategic partnerships,
-        developing local capabilities, initiating international expansions,
-        providing operational expertise, and leveraging our global network.
-        <br />
-        <br />
-        Today Revery operates in Food & Beverages, Retail and Venture Capital.
+        JSC "Iberia Refreshments" is the official bottler of "Pepsico" in
+        Georgia and has the exclusive right to produce and distribute
+        non-alcoholic soft drinks (Pepsi, 7UP, Mirinda, Aquafina) and the
+        category of "snacks" (Lays, Doritos, Cheetos, etc); It also produces and
+        distributes "Max Power" and Georgian lemonades (Iberia) in Georgia. <br/><br/>
+        JSC"Iberia Refreshments" has been operating since 2001 and is currently
+        a member of the private international investment group "Revery Group".
+        About 500 employees are employed in the company throughout Georgia.
       </Text>
       <RightSpacer
         data-aos="fade-left"
@@ -83,4 +81,3 @@ const Text = styled.p`
   padding: 4% 12%;
   user-select: none;
 `;
-

@@ -7,6 +7,7 @@ import Hum from "./assets/hum.svg";
 import Tree from "./assets/trees.svg";
 import Field from "./assets/field.svg";
 import Sea from "./assets/sea.svg";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,10 +15,31 @@ function App() {
       <Header />
       <HeroBanner />
       <UnderStrip />
-      <NextBanner buttonTxt="OUT STORY" img={Tree} />
-      <NextBanner buttonTxt="OUT STORY" img={Hum} />
-      <NextBanner buttonTxt="OUT STORY" img={Field} />
-      <NextBanner buttonTxt="OUT STORY" img={Sea} />
+      <NextBanner
+        buttonTxt="OUT STORY"
+        img={Tree}
+        colorLeft="#ed1c24"
+        colorRight="#ed1c24"
+      />
+      <NextBanner
+        buttonTxt="OUT TEAM"
+        img={Hum}
+        colorLeft="#ed1c24"
+        colorRight="#FFFFFF"
+      />
+      <NextBanner
+        buttonTxt="FOOD & BEVERAGES AND RETAIL"
+        img={Field}
+        colorLeft="#1354a4"
+        colorRight="#FFFFFF"
+      />
+      <NextBanner
+        buttonTxt="VENTURE CAPITAL"
+        img={Sea}
+        colorLeft="#feb01a"
+        colorRight="#FFFFFF"
+      />
+      <Footer/>
     </>
   );
 }
