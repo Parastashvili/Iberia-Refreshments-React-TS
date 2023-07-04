@@ -17,6 +17,7 @@ const Container = styled.div`
   width: 100%;
   background-color: #e4e5e6;
   ul {
+    background-color: #e4e5e6;
     padding: 30px;
     max-height: 70%;
     display: flex;
@@ -46,6 +47,7 @@ const Container = styled.div`
     }
   }
   p {
+    background-color: #e4e5e6;
     color: #212529;
     text-align: center;
     font-size: 16px;

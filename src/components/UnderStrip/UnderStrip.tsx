@@ -50,7 +50,7 @@ const RightSpacerMini = styled.div`
   width: 55%;
   height: 0;
   border-left: 10px solid transparent;
-  border-right: 00px solid transparent;
+  border-right: 0px solid transparent;
   border-bottom: 10px solid #ed1c24;
   position: absolute;
   right: 0;

@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/HeaderStrip/Header";
 import HeroBanner from "./components/HeroBanner/HeroBanner";
 import NextBanner from "./components/NextBanner/NextBanner";
@@ -8,10 +7,12 @@ import Tree from "./assets/trees.svg";
 import Field from "./assets/field.svg";
 import Sea from "./assets/sea.svg";
 import Footer from "./components/Footer/Footer";
-
+import { styled } from "styled-components";
+import BG from "./assets/bg.png";
 function App() {
   return (
     <>
+      <Main />
       <Header />
       <HeroBanner />
       <UnderStrip />
@@ -39,9 +40,19 @@ function App() {
         colorLeft="#feb01a"
         colorRight="#FFFFFF"
       />
-      <Footer/>
+      <Footer />
     </>
   );
 }
 
 export default App;
+const Main = styled.div`
+  background-image: url(${BG});
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+`;
