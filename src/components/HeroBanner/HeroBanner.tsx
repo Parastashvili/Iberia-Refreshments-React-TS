@@ -16,13 +16,15 @@ export default function HeroBanner() {
         data-aos="fade-right"
         data-aos-easing="linear"
         data-aos-duration="1500"
-      />
+      />{" "}
       <Text data-aos="fade-up" data-aos-duration="1500">
         JSC "Iberia Refreshments" is the official bottler of "Pepsico" in
         Georgia and has the exclusive right to produce and distribute
         non-alcoholic soft drinks (Pepsi, 7UP, Mirinda, Aquafina) and the
         category of "snacks" (Lays, Doritos, Cheetos, etc); It also produces and
-        distributes "Max Power" and Georgian lemonades (Iberia) in Georgia. <br/><br/>
+        distributes "Max Power" and Georgian lemonades (Iberia) in Georgia.{" "}
+        <br />
+        <br />
         JSC"Iberia Refreshments" has been operating since 2001 and is currently
         a member of the private international investment group "Revery Group".
         About 500 employees are employed in the company throughout Georgia.
