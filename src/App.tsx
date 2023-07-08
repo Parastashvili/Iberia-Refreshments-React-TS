@@ -4,7 +4,7 @@ import Story from "./Pages/Story";
 import Team from "./Pages/Team";
 import Retail from "./Pages/Retail";
 import Capital from "./Pages/Capital";
-import NotFoundPage from "./Pages/error-page";
+import NotFoundPage from "./Pages/Error-page";
 function App() {
   return (
     <BrowserRouter>

@@ -1,14 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 
 interface BurgerLineProps {
   open: boolean;
 }
 const BurgerMenu = () => {
   const [open, setOpen] = React.useState(false);
-
   const handleMenuToggle = () => {
     setOpen(!open);
+  };
+  const navigate = useNavigate();
+
+  const navigation = (path:any) => {
+    navigate(path);
   };
 
   return (
@@ -20,17 +25,21 @@ const BurgerMenu = () => {
       </BurgerWrapper>
       <Menu open={open}>
         <div>
-          <li>HOME</li>
-          <li>OUR STORY</li>
-          <li>OUR TEAM</li>
-          <li>FOOD & BEVERAGES AND RETAIL</li>
-          <li>VENTURE CAPITAL</li>
+          <li onClick={() => navigation("/")}>HOME</li>
+          <li onClick={() => navigation("/Story")}>OUR STORY</li>
+          <li onClick={() => navigation("/Team")}>OUR TEAM</li>
+          <li onClick={() => navigation("/Retail")}>
+            FOOD & BEVERAGES AND RETAIL
+          </li>
+          <li onClick={() => navigation("/Capital")}>VENTURE CAPITAL</li>
         </div>
       </Menu>
     </Container>
   );
 };
+
 export default BurgerMenu;
+
 const Container = styled.div`
   position: relative;
   @media (max-width: 240px) {

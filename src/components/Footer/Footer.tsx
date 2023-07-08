@@ -9,7 +9,7 @@ export default function Footer() {
         <li>Food & Beverages and Retail</li>
         <li>Venture Capital</li>
       </ul>
-      <p>&copy; Iberia Rebreshments, All Rights Reserved.</p>
+      <p>&copy; Iberia Refreshments, All Rights Reserved.</p>
     </Container>
   );
 }

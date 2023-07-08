@@ -12,44 +12,36 @@ import BG from "../assets/bg.png";
 function App() {
   return (
     <>
-      <div className="one">
+      <>
         <Main />
         <Header />
         <HeroBanner />
         <UnderStrip />
-      </div>
-      <div className="two">
-        <NextBanner
-          buttonTxt="OUT STORY"
-          img={Tree}
-          colorLeft="#ed1c24"
-          colorRight="#ed1c24"
-        />
-      </div>
-      <div className="three">
-        <NextBanner
-          buttonTxt="OUT TEAM"
-          img={Hum}
-          colorLeft="#ed1c24"
-          colorRight="#FFFFFF"
-        />
-      </div>
-      <div className="four">
-        <NextBanner
-          buttonTxt="FOOD & BEVERAGES AND RETAIL"
-          img={Field}
-          colorLeft="#1354a4"
-          colorRight="#FFFFFF"
-        />
-      </div>
-      <div className="five">
-        <NextBanner
-          buttonTxt="VENTURE CAPITAL"
-          img={Sea}
-          colorLeft="#feb01a"
-          colorRight="#FFFFFF"
-        />
-      </div>
+      </>
+      <NextBanner
+        buttonTxt="OUT STORY"
+        img={Tree}
+        colorLeft="#ed1c24"
+        colorRight="#FFFFFF"
+      />
+      <NextBanner
+        buttonTxt="OUT TEAM"
+        img={Hum}
+        colorLeft="#ed1c24"
+        colorRight="#FFFFFF"
+      />
+      <NextBanner
+        buttonTxt="FOOD & BEVERAGES AND RETAIL"
+        img={Field}
+        colorLeft="#1354a4"
+        colorRight="#FFFFFF"
+      />
+      <NextBanner
+        buttonTxt="VENTURE CAPITAL"
+        img={Sea}
+        colorLeft="#feb01a"
+        colorRight="#FFFFFF"
+      />
       <Footer />
     </>
   );
