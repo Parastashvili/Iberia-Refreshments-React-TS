@@ -1,13 +1,19 @@
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom";
 export default function Footer() {
+  const navigate = useNavigate();
+
+  const navigation = (path: any) => {
+    navigate(path);
+  };
   return (
     <Container>
       <ul>
-        <li>Home</li>
-        <li>Our Story</li>
-        <li>Our Team</li>
-        <li>Food & Beverages and Retail</li>
-        <li>Venture Capital</li>
+        <li onClick={() => navigation("/")}>Home</li>
+        <li onClick={() => navigation("/Story")}>Our Story</li>
+        <li onClick={() => navigation("/Team")}>Our Team</li>
+        <li onClick={() => navigation("/Retail")}>Food & Beverages and Retail</li>
+        <li onClick={() => navigation("/Capital")}>Venture Capital</li>
       </ul>
       <p>&copy; Iberia Refreshments, All Rights Reserved.</p>
     </Container>

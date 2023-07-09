@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import Header from "../components/HeaderStrip/Header";
 import NextBanner from "../components/NextBanner/NextBanner";
-import Hum from "../assets/trees.svg";
+import Hum from "../assets/hum.svg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
 import { useNavigate } from "react-router-dom";
