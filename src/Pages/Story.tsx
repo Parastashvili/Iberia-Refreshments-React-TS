@@ -176,6 +176,7 @@ const Midder = styled.div`
   }
 `;
 const Grider = styled.div`
+  overflow-x: hidden;
   margin-top: 50px;
   width: 100%;
   @media (min-width: 992px) {

@@ -45,7 +45,7 @@ const Background = styled.div`
   text-transform: uppercase;
   border-bottom: 2rem solid #fbfeff;
   overflow: hidden;
-  height: 90vh;
+  height: 80vh;
   position: relative;
   .container {
     position: absolute;

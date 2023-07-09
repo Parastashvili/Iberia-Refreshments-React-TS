@@ -1,16 +1,42 @@
-import story2 from "../assets/story2.svg";
 import { styled } from "styled-components";
-export default function Team() {
+import Header from "../components/HeaderStrip/Header";
+import NextBanner from "../components/NextBanner/NextBanner";
+import Hum from "../assets/trees.svg";
+import Footer from ".././components/Footer/Footer";
+import BG from "../assets/bg.png";
+import { useNavigate } from "react-router-dom";
+import "aos/dist/aos.css";
+
+export default function Story() {
+  const navigate = useNavigate();
+
+  const navigation = (path: any) => {
+    navigate(path);
+  };
   return (
-    <Div1>
-      <Div2 style={{ backgroundImage: `url(${story2})` }} />
-    </Div1>
+    <>
+      <>
+        <Main />
+        <Header />
+      </>
+      <NextBanner
+        buttonTxt="OUT STORY"
+        img={Hum}
+        colorLeft="#ed1c24"
+        colorRight="#FFFFFF"
+      />
+      
+      <Footer />
+    </>
   );
 }
-const Div2 = styled.div`
-  width: 50%;
-`;
-const Div1 = styled.div`
-  width: 100%;
+const Main = styled.div`
+  background-image: url(${BG});
+  width: 100vw;
   height: 100vh;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
 `;
