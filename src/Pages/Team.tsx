@@ -4,18 +4,12 @@ import NextBanner from "../components/NextBanner/NextBanner";
 import Hum from "../assets/hum.svg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
-// import { useNavigate } from "react-router-dom";
 import "aos/dist/aos.css";
 import Member from "../components/Team/Member";
 import khatia from "../assets/team/1655455765191.jpg";
 import "aos/dist/aos.css";
 
 export default function Story() {
-  // const navigate = useNavigate();
-
-  // const navigation = (path: any) => {
-  //   navigate(path);
-  // };
   return (
     <>
       <>
@@ -23,7 +17,7 @@ export default function Story() {
         <Header />
       </>
       <NextBanner
-        buttonTxt="OUT STORY"
+        buttonTxt="OUT TEAM"
         img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"

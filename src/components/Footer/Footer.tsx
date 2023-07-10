@@ -5,6 +5,10 @@ export default function Footer() {
 
   const navigation = (path: any) => {
     navigate(path);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
   return (
     <Container>
@@ -12,7 +16,9 @@ export default function Footer() {
         <li onClick={() => navigation("/")}>Home</li>
         <li onClick={() => navigation("/Story")}>Our Story</li>
         <li onClick={() => navigation("/Team")}>Our Team</li>
-        <li onClick={() => navigation("/Retail")}>Food & Beverages and Retail</li>
+        <li onClick={() => navigation("/Retail")}>
+          Food & Beverages and Retail
+        </li>
         <li onClick={() => navigation("/Capital")}>Venture Capital</li>
       </ul>
       <p>&copy; Iberia Refreshments, All Rights Reserved.</p>

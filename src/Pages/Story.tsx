@@ -14,6 +14,10 @@ export default function Story() {
 
   const navigation = (path: any) => {
     navigate(path);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
   return (
     <>

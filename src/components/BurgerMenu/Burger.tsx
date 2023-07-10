@@ -12,8 +12,12 @@ const BurgerMenu = () => {
   };
   const navigate = useNavigate();
 
-  const navigation = (path:any) => {
+  const navigation = (path: any) => {
     navigate(path);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   };
 
   return (
