@@ -2,11 +2,11 @@ import { styled } from "styled-components";
 import { useState } from "react";
 import linked from "../../assets/linkedin.svg";
 import close from "../../assets/close.svg";
-
+import "aos/dist/aos.css";
 export default function Member(props: any) {
   const [showDetails, setShowDetails] = useState(false);
   return (
-    <Cont>
+    <Cont data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
       <img
         className="avatar"
         src={props.img}
@@ -63,7 +63,8 @@ const Cont = styled.div`
     width: 285px;
     height: 285px;
     border-radius: 5px;
-    transition: ease-in 0.2s;
+    transition: ease-in 0.3s;
+    border-bottom: 7px solid transparent;
     cursor: pointer;
     @media (min-width: 992px) {
       width: 170px;
@@ -71,9 +72,9 @@ const Cont = styled.div`
     }
     &:hover {
       translate: 0px -5px;
+      border-bottom: 7px solid #ed1c24;
     }
   }
-
   p {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
