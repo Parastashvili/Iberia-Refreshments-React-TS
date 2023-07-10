@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Member from "../components/Team/Member";
 import khatia from "../assets/team/1655455765191.jpg";
 import "aos/dist/aos.css";
+import Transparent from "../components/Styled/Transparent.styled";
 
 export default function Story() {
   return (
@@ -22,6 +23,7 @@ export default function Story() {
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />
+      <Transparent />
       <Team>
         <Member
           name="Khatia Gorgadze"
