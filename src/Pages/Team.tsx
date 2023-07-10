@@ -4,15 +4,15 @@ import NextBanner from "../components/NextBanner/NextBanner";
 import Hum from "../assets/hum.svg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "aos/dist/aos.css";
 
 export default function Story() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigation = (path: any) => {
-    navigate(path);
-  };
+  // const navigation = (path: any) => {
+  //   navigate(path);
+  // };
   return (
     <>
       <>
