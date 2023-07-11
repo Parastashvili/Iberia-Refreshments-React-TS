@@ -136,6 +136,7 @@ const RightSpacer = styled.span`
   right: 0;
 `;
 const StoryTeller = styled.div`
+  overflow: hidden;
   background-color: transparent;
   width: 100%;
   position: relative;
