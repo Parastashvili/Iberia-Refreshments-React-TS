@@ -60,15 +60,12 @@ const Cont = styled.div`
   justify-content: center;
   gap: 8px;
   .avatar {
-    width: 285px;
-    height: 285px;
+    width: 70%;
     border-radius: 5px;
     transition: ease-in 0.3s;
     border-bottom: 7px solid transparent;
     cursor: pointer;
     @media (min-width: 992px) {
-      width: 170px;
-      height: 170px;
     }
     &:hover {
       translate: 0px -5px;
