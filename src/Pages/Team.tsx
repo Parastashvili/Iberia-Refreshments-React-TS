@@ -7,6 +7,9 @@ import BG from "../assets/bg.png";
 import "aos/dist/aos.css";
 import Member from "../components/Team/Member";
 import khatia from "../assets/team/1655455765191.jpg";
+import mamisashvili from "../assets/team/357326351_234017122890068_5282658061640508054_n-removebg-preview.png";
+import kvirchishvili from "../assets/team/358676881_1227638414445225_6873552120559804997_n-removebg-preview.png";
+
 import "aos/dist/aos.css";
 import Transparent from "../components/Styled/Transparent.styled";
 
@@ -26,18 +29,22 @@ export default function Story() {
       <Transparent />
       <Team>
         <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
+          name="Nino Mamisashvili"
+          position="Chief Financial Officer"
+          img={mamisashvili}
+          link="https://www.linkedin.com/in/nino-mamisashvili-a92254b4/"
+          details="Detail-focused accounting, finance professional with strong knowledge of general management and experience in various industries over 16 years. Result-focused team worker with the ability and experience to form a strong and motivated team, inspire enthusiasm, and continual development.
+
+          Areas of Knowledge and Expertise:
+          
+          Participating in the strategic planning process; Managing and running Accounting, Finance, Internal Audit, Legal, Administrative, and IT teams; 20+ successful projects of fundraising with local and international financial institutions; Business Process Development from scratch and further management, Managing massive projects of software implementation (1C Enterprise, Microsoft Dynamics Nav) in Georgian blue-chip companies; Building and developing financial team; Financial modeling and valuation; Ability to apply knowledge of IFRS and legislation (tax, labor, and entrepreneur) in financial planning and operation of the company; Taking part and leading financial side of M&A process; Extensive experience of restructuring, rehabilitation, and achievement of planned results in various Georgian companies."
         />
         <Member
           name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
+          position="Head of HR Department"
+          img={kvirchishvili}
+          link="https://www.linkedin.com/in/lia-kvirchishvili/"
+          details="When I think about things that make my life better, it's my profession. Human Resource Management is the process of recruiting, selecting, providing orientation, imparting training and development, appraising the performance of employees, deciding compensation and providing benefits, motivating employees, maintaining proper relations with employees and their trade unions. So, I am proud that I am a part of these very important processes. My professional vision is To handle yourself, use your head, to handle others, use your heart (Eleanor Roosevelt)"
         />
         <Member
           name="Khatia Gorgadze"

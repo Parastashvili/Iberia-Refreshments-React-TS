@@ -7,14 +7,13 @@ export default function Member(props: any) {
   const [showDetails, setShowDetails] = useState(false);
   return (
     <Cont data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
-      <img
+      <div
+        style={{ backgroundImage: `url(${props.img})` }}
         className="avatar"
-        src={props.img}
-        alt="usser photo"
         onClick={() => {
           setShowDetails(!showDetails);
         }}
-      />
+      ></div>
       <h3>{props.name}</h3>
       <p>{props.position}</p>
       {showDetails ? (
@@ -60,7 +59,11 @@ const Cont = styled.div`
   justify-content: center;
   gap: 8px;
   .avatar {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 70%;
+    height: 300px;
     border-radius: 5px;
     transition: ease-in 0.3s;
     border-bottom: 7px solid transparent;
