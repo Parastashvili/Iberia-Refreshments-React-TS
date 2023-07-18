@@ -40,7 +40,7 @@ export default function Story() {
           Participating in the strategic planning process; Managing and running Accounting, Finance, Internal Audit, Legal, Administrative, and IT teams; 20+ successful projects of fundraising with local and international financial institutions; Business Process Development from scratch and further management, Managing massive projects of software implementation (1C Enterprise, Microsoft Dynamics Nav) in Georgian blue-chip companies; Building and developing financial team; Financial modeling and valuation; Ability to apply knowledge of IFRS and legislation (tax, labor, and entrepreneur) in financial planning and operation of the company; Taking part and leading financial side of M&A process; Extensive experience of restructuring, rehabilitation, and achievement of planned results in various Georgian companies."
         />
         <Member
-          name="Khatia Gorgadze"
+          name="Lia Kvirchishvili"
           position="Head of HR Department"
           img={kvirchishvili}
           link="https://www.linkedin.com/in/lia-kvirchishvili/"

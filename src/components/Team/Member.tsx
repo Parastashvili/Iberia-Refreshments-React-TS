@@ -59,6 +59,7 @@ const Cont = styled.div`
   justify-content: center;
   gap: 8px;
   .avatar {
+    filter: drop-shadow(10px 0px 10px #a0a0a0);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
