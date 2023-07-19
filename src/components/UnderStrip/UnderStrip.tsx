@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import logo from "../../assets/1pepsi.png";
 export default function UnderStrip() {
   useEffect(() => {
     Aos.init();
@@ -17,8 +18,9 @@ export default function UnderStrip() {
           data-aos-duration="1500"
         />
         <h1>
-          Strategic partnerships • Local capabilities • International expansions
-          • Operational expertise • Global network
+          {/* Strategic partnerships • Local capabilities • International expansions
+          • Operational expertise • Global network */}
+          <img style={{ width: "80px" }} src={logo} alt="" />
         </h1>
         <RightSpacerMini
           data-aos="fade-left"
@@ -42,7 +44,7 @@ const UnderHero = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: 28.8px;
-    padding: 60px;
+    padding: 30px;
     user-select: none;
   }
 `;
@@ -51,7 +53,7 @@ const RightSpacerMini = styled.div`
   height: 0;
   border-left: 10px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 10px solid #ed1c24;
+  border-bottom: 10px solid #ffffff;
   position: absolute;
   right: 0;
   bottom: 15px;
@@ -61,7 +63,7 @@ const LeftSpacerMini = styled.div`
   height: 0;
   border-left: 0px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #ed1c24;
+  border-top: 10px solid #ffffff;
   position: absolute;
   left: 0;
   top: 15px;

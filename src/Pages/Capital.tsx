@@ -4,7 +4,7 @@ import NextBanner from "../components/NextBanner/NextBanner";
 import sea from "../assets/sea.svg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
-import fmg from "../assets/last.svg";
+import fmg from "../assets/last.png";
 import "aos/dist/aos.css";
 import logo from "../assets/logo.png";
 
@@ -52,8 +52,7 @@ export default function Story() {
           style={{ backgroundImage: `url(${fmg})` }}
         ></ImageElement>
       </Grider>
-      <Bold
-      >
+      <Bold>
         <h4 className="textCont">OUR PARTNERS</h4>
       </Bold>
       <Footer />
@@ -150,7 +149,7 @@ const Grider = styled.div`
 const ImageElement = styled.div`
   width: 100% !important;
   height: 80vh;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 `;

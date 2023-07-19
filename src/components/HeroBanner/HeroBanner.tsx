@@ -1,4 +1,4 @@
-import background from "../../assets/div.parallax-bg.svg";
+import background from "../../assets/div.parallax-bg.jpg";
 import styled from "styled-components";
 import { useEffect } from "react";
 import Aos from "aos";
@@ -26,8 +26,16 @@ export default function HeroBanner() {
         <br />
         <br />
         JSC"Iberia Refreshments" has been operating since 2001 and is currently
-        a member of the private international investment group "Revery Group".
-        About 500 employees are employed in the company throughout Georgia.
+        a member of the private international investment group
+        <a
+          href="https://www.reverygroup.com/"
+          target="_blank"
+          style={{ textDecoration: "none", color: "#000", fontWeight: "700" }}
+        >
+          {" "}
+          "Revery Group"
+        </a>
+        . About 500 employees are employed in the company throughout Georgia.
       </Text>
       <RightSpacer
         data-aos="fade-left"
@@ -56,7 +64,7 @@ const RightSpacer = styled.span`
   height: 0;
   border-left: 20px solid transparent;
   border-right: 0px solid transparent;
-  border-bottom: 20px solid #ed1c24;
+  border-bottom: 20px solid rgb(19, 84, 164);
 `;
 const Container = styled.div`
   position: relative;

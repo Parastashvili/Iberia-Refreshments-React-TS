@@ -3,7 +3,7 @@ import HeroBanner from "../components/HeroBanner/HeroBanner";
 import NextBanner from "../components/NextBanner/NextBanner";
 import UnderStrip from "../components/UnderStrip/UnderStrip";
 import Hum from "../assets/hum.svg";
-import Tree from "../assets/trees.svg";
+import Tree from "../assets/trees.jpg";
 import Field from "../assets/field.svg";
 import Sea from "../assets/sea.svg";
 import Footer from ".././components/Footer/Footer";
@@ -26,7 +26,7 @@ function App() {
       />
       <NextBanner
         buttonTxt="OUT TEAM"
-        img={Hum}
+        img={Tree}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />

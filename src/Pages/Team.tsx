@@ -46,62 +46,6 @@ export default function Story() {
           link="https://www.linkedin.com/in/lia-kvirchishvili/"
           details="When I think about things that make my life better, it's my profession. Human Resource Management is the process of recruiting, selecting, providing orientation, imparting training and development, appraising the performance of employees, deciding compensation and providing benefits, motivating employees, maintaining proper relations with employees and their trade unions. So, I am proud that I am a part of these very important processes. My professional vision is To handle yourself, use your head, to handle others, use your heart (Eleanor Roosevelt)"
         />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
-        <Member
-          name="Khatia Gorgadze"
-          position="HR Specialist"
-          img={khatia}
-          link="https://www.linkedin.com/in/khatia-gorgadze-610447242/"
-          details="I have a deep passion for coding and am always looking for new challenges to improve my skills and knowledge. 🤓💪 I believe that coding is not just a skill, but a mindset that allows me to solve problems and create innovative solutions. My approach to coding is to combine creativity and technical skills to deliver exceptional results. 🚀💡 Feel free to explore my profile and projects, and don't hesitate to get in touch with me for any collaboration or discussion."
-        />
       </Team>
       <Contact>
         <LeftSpacer
@@ -197,7 +141,7 @@ const Main = styled.div`
 const Team = styled.div`
   overflow: hidden;
   width: calc(100%-4rem);
-  background-color: #202020;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
   padding: 4rem;
   @media (min-width: 992px) {
     display: grid;

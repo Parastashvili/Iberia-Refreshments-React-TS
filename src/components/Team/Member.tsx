@@ -73,7 +73,7 @@ const Cont = styled.div`
     }
     &:hover {
       translate: 0px -5px;
-      border-bottom: 7px solid #ed1c24;
+      border-bottom: 7px solid #3a90f9;
     }
   }
   p {
