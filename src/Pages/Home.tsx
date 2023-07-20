@@ -2,10 +2,10 @@ import Header from "../components/HeaderStrip/Header";
 import HeroBanner from "../components/HeroBanner/HeroBanner";
 import NextBanner from "../components/NextBanner/NextBanner";
 import UnderStrip from "../components/UnderStrip/UnderStrip";
-import Hum from "../assets/hum.svg";
+import Hum from "../assets/team/hum.png";
 import Tree from "../assets/trees.jpg";
-import Field from "../assets/field.svg";
-import Sea from "../assets/sea.svg";
+import Field from "../assets/field.jpg";
+import Sea from "../assets/sea.jpg";
 import Footer from ".././components/Footer/Footer";
 import { styled } from "styled-components";
 import BG from "../assets/bg.png";
@@ -23,14 +23,16 @@ function App() {
         img={Tree}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
+        op="0.9"
       />
       <NextBanner
         buttonTxt="OUT TEAM"
-        img={Tree}
+        img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />
       <NextBanner
+        op="0.9"
         buttonTxt="FOOD & BEVERAGES AND RETAIL"
         img={Field}
         colorLeft="#1354a4"
@@ -41,6 +43,7 @@ function App() {
         img={Sea}
         colorLeft="#feb01a"
         colorRight="#FFFFFF"
+        op="0.9"
       />
       <Footer />
     </>

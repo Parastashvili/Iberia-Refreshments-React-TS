@@ -7,7 +7,10 @@ export default function NextBanner(props: any) {
   return (
     <div>
       <Transparent />
-      <Background style={{ backgroundImage: `url(${props.img})` }}>
+
+      <Background
+        style={{ backgroundImage: `url(${props.img})`, opacity: `${props.op}` }}
+      >
         <LeftSpacer
           style={{ borderTop: `20px solid ${props.colorLeft}` }}
           data-aos="fade-right"
@@ -31,7 +34,6 @@ export default function NextBanner(props: any) {
     </div>
   );
 }
-
 const Background = styled.div`
   display: flex;
   align-items: end;

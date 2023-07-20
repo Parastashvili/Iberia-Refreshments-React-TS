@@ -30,7 +30,11 @@ export default function HeroBanner() {
         <a
           href="https://www.reverygroup.com/"
           target="_blank"
-          style={{ textDecoration: "none", color: "#000", fontWeight: "700" }}
+          style={{
+            textDecoration: "none",
+            color: "#ffffff",
+            fontWeight: "700",
+          }}
         >
           {" "}
           "Revery Group"
@@ -81,12 +85,12 @@ const Container = styled.div`
   overflow: hidden;
 `;
 const Text = styled.p`
-  color: #000;
+  color: #ffffff;
   text-align: center;
   font-size: 25.8px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 500;
   line-height: 34.56px;
   padding: 4% 12%;
   user-select: none;

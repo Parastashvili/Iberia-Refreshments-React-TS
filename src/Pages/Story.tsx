@@ -1,11 +1,11 @@
 import { styled } from "styled-components";
 import Header from "../components/HeaderStrip/Header";
 import NextBanner from "../components/NextBanner/NextBanner";
-import Tree from "../assets/trees.svg";
+import Tree from "../assets/trees.jpg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
-import story1 from "../assets/story1.svg";
-import story2 from "../assets/story2.svg";
+import story1 from "../assets/happy.jpg";
+import story2 from "../assets/team/hum.png";
 import { useNavigate } from "react-router-dom";
 import "aos/dist/aos.css";
 

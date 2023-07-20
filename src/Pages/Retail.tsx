@@ -1,10 +1,10 @@
 import { styled } from "styled-components";
 import Header from "../components/HeaderStrip/Header";
 import NextBanner from "../components/NextBanner/NextBanner";
-import Field from "../assets/field.svg";
+import Field from "../assets/field.jpg";
 import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
-import fmg from "../assets/fmg.svg";
+import fmg from "../assets/fmg.jpg";
 import "aos/dist/aos.css";
 import logo from "../assets/logo.png";
 import pepsi from "../assets/pepsi.png";
