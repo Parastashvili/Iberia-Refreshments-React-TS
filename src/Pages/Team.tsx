@@ -6,7 +6,7 @@ import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
 import "aos/dist/aos.css";
 import Member from "../components/Team/Member";
-import khatia from "../assets/team/1655455765191.jpg";
+// import khatia from "../assets/team/1655455765191.jpg";
 import mamisashvili from "../assets/team/357326351_234017122890068_5282658061640508054_n-removebg-preview.png";
 import kvirchishvili from "../assets/team/358676881_1227638414445225_6873552120559804997_n-removebg-preview.png";
 
