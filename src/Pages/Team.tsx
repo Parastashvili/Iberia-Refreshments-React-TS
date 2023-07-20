@@ -25,6 +25,7 @@ export default function Story() {
         img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
+        op="0.8"
       />
       <Transparent />
       <Team>
