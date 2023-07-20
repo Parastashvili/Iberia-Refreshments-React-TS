@@ -56,7 +56,10 @@ export default function Story() {
         />
         <span className="contact">
           <h1>CONTACT US</h1>
-          <p>ifro@iberiarefreshments.ge</p>
+          <p>
+            Email: info@pepsi.ge <br></br>Tel:(+995 32) 250 60 20<br></br>
+            Tel:(+995 32) 250 60 21
+          </p>
         </span>
         <RightSpacer
           data-aos="fade-left"
@@ -84,7 +87,7 @@ const Contact = styled.div`
     justify-content: center;
     flex-direction: column;
     transform: skew(-20deg);
-    gap: 15px;
+    gap: 1px;
     background-color: #202020;
     width: 60%;
     height: 100px;
@@ -96,6 +99,7 @@ const Contact = styled.div`
       font-weight: 700;
       line-height: 32px;
       transform: skew(20deg);
+      margin-left: -15px;
     }
     p {
       color: #ffffff;
@@ -106,6 +110,7 @@ const Contact = styled.div`
       line-height: 20px;
       transform: skew(20deg);
       margin-left: 20px;
+      text-align: center;
     }
   }
 `;
