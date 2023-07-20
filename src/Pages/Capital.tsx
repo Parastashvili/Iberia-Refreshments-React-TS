@@ -16,7 +16,7 @@ export default function Story() {
         <Header />
       </>
       <NextBanner
-        buttonTxt="Venture capital"
+        buttonTxt="About Us"
         img={sea}
         colorLeft="#feb01a"
         colorRight="#FFFFFF"
@@ -39,10 +39,27 @@ export default function Story() {
           <p className="midderText">
             <img className="logo" src={logo} alt="logo" />
             <br></br>
-            Revery Capital is the venture and alternative investments arm of
-            Revery focused on companies that are driving transformational change
-            in industries such as Food-Tech, Wellness, Hospitality and Venture
-            Capital.
+            Welcome to Pepsi Georgia, the ultimate destination for the number
+            one carbonated drink that has won the hearts of 57% of the
+            population across the entire territory of Georgia. With a strong
+            presence in six major towns, we proudly cover the length and breadth
+            of the country, bringing the refreshing taste of Pepsi to every
+            corner. <br></br><br></br>At Pepsi Georgia, we take pride in being the go-to choice
+            for carbonated beverages, with an overwhelming majority of the
+            population choosing Pepsi above all others. Our commitment to
+            quality and innovation has made us the leading carbonated drink in
+            the nation, resonating with people from all walks of life.<br></br><br></br> Whether
+            you're in bustling cities or serene countryside, Pepsi Georgia
+            ensures that you can savor the iconic taste and experience the joy
+            that only Pepsi can bring. From family gatherings to celebrations
+            with friends, Pepsi has been a part of countless cherished moments
+            in the lives of Georgians. <br></br><br></br>Join us in celebrating the nation's
+            favorite carbonated drink, Pepsi, as we continue to spread the
+            spirit of refreshment, happiness, and unity throughout Georgia.
+            Thank you for choosing Pepsi Georgia, where every sip is a taste of
+            pure delight and an expression of our deep-rooted connection with
+            the people of this beautiful country. Cheers to the moments we
+            create together with Pepsi!
           </p>
         </span>
         <ImageElement

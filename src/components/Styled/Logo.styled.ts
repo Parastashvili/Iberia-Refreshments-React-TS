@@ -13,7 +13,7 @@ const Logo = styled.div`
   justify-content: center;
   cursor: pointer;
   &:hover {
-    filter: drop-shadow(1px 1px 10px #e4e5e6);
+    scale: 1.05;
   }
 `;
 

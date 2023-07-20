@@ -38,11 +38,14 @@ export default function Story() {
       >
         <LeftSpacer />
         <p>
-          Revery was originally part of a family office that has investment and
-          operational experience in Eurasia for over 30 years in various
-          sectors. Today Revery operates as an independent investment firm with
-          strategic partnerships that are core competencies of our business
-          model.
+          We are Iberia Refreshments - the exclusive Pepsi-Cola bottler
+          representing PepsiCo International on the Georgian market through
+          holding a franchise agreement for organizing production and sales of
+          soft beverages in Georgia. We are a fast-growing company and one of
+          the largest beverages’ producers in Georgia. We are part of an
+          international private investment group – Revery Group, which is
+          developing Food & Beverage Businesses in Caucasus, Central Asia and
+          Middle East markets.
         </p>
         <Bold>
           <h4 className="textCont">
@@ -59,19 +62,21 @@ export default function Story() {
         >
           <h2>OUR APPROACH</h2>
           <p>
-            We combine our global network and investment experience to bring
-            together people, partnerships and capital.
+            Iberia Refreshments excels in crafting exceptional carbonated
+            beverages. Our commitment to quality ingredients, innovation, and
+            sustainability sets us apart as an industry leader.
           </p>
           <p>
-            Through deep analysis and close collaboration we build sustainable
-            business models that withstand economic cycles and create
-            undiscovered value in emerging markets in cyclical-agnostic food &
-            beverage businesses.
+            Meticulously sourcing the finest ingredients, we create a diverse
+            range of flavors that cater to various tastes. Our state-of-the-art
+            manufacturing facility, coupled with cutting-edge technology,
+            ensures consistent quality and carbonation in every drink. With a
+            focus on eco-friendly practices and responsible sourcing, we strive
+            to minimize our environmental impact.
           </p>
           <p>
-            We take a very long term view of our venture capital investments
-            that can be expanded and deployed into all existing and future
-            portfolio companies and geographies of Revery.
+            At Iberia Refreshments, we take pride in offering beverages that
+            delight consumers and leave a positive mark on the planet.
           </p>
           <RightSpacer />
         </FirstElement>
@@ -90,10 +95,29 @@ export default function Story() {
             <h4 className="textContMid">OUR TEAM</h4>
           </Midder>
           <p className="midderText">
-            We work in close partnership with management teams at our portfolio
-            companies to transformatively improve capabilities, ensure human
-            flourishment and unlock value within each business. Developing and
-            retaining local talent is a core focus of our strategy.
+            Welcome to Iberia Refreshments, where our passion for refreshing
+            beverages meets the world of retail! At Iberia Refreshments, we
+            believe that retail is not just about transactions; it's about
+            creating memorable experiences for our valued customers. Our
+            commitment to excellence and customer satisfaction drives us to go
+            above and beyond, ensuring that every interaction leaves a lasting
+            positive impression. <br /> <br />
+            In the realm of retail, we embrace challenges as opportunities for
+            growth, and we approach each day with enthusiasm and determination.
+            We know that success in retail comes from understanding our
+            customers' needs, anticipating their desires, and delivering
+            products that delight and inspire.
+            <br /> <br /> As a team, we constantly strive to innovate and adapt,
+            keeping up with the ever-evolving retail landscape. We believe in
+            the power of teamwork and collaboration, where each member's unique
+            talents contribute to our collective success. <br /> <br />
+            With a positive attitude and unwavering dedication, we embark on
+            this retail journey, embracing change and embracing every moment as
+            an opportunity to make a difference. Together, we are ready to
+            create a retail experience that goes beyond expectations, leaving a
+            trail of satisfied and motivated customers. Join us on this exciting
+            adventure at Iberia Refreshments, where refreshing beverages and
+            retail magic come together to create extraordinary moments.
             <br /> <br />
             <span className="learnMore" onClick={() => navigation("/Team")}>
               Learn More

@@ -33,11 +33,10 @@ export default function Story() {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          We believe there is a large underdeveloped food and beverage market in
-          emerging markets. Global brands are under-penetrated locally and local
-          flavors are under-appreciated globally. We help bring these two
-          disconnections together to improve the lives and choices of consumers
-          in emerging markets.
+          We connect underdeveloped food and beverage markets in emerging
+          economies with global brands and promote local flavors to the world.
+          Our goal is to enhance consumers' choices and cultural appreciation
+          while enriching lives globally.
         </p>
         <RightSpacer
           data-aos="fade-left"
@@ -70,26 +69,24 @@ export default function Story() {
           <p className="midderText">
             <img className="logo" src={logo} alt="logo" />
             <br></br>
-            Revery Food and Beverages is the food, beverages and logistics
-            investment arm of Revery Group. We focus on building long-term
-            sustainable businesses and empowering management teams to build
-            bigger, better, stronger companies that can grow organically every
-            year. <br></br>
-            <br></br> RF&B operates as a dual-layered evergreen investment
-            company that includes industry experts and operators to help each
-            business grow and build capabilities, as well as an investment team
-            that is seeking to consistently add brands, businesses and new
-            geographies to our platform via acquisitions and/or joint ventures.
-            <br></br>
-            <br></br> We work closely with multinationals to improve their
-            franchises in emerging markets and align our goals to win share
-            together. We partner with or acquire local champions to help them
-            grow their businesses beyond their geographies and improve their
-            operations.<br></br>
-            <br></br> Our aim is to be the preferred partner for F&B businesses
-            and multinationals in various geographies. Currently, RF&B owns and
-            operates multiple PepsiCo Franchises in Eurasia, as well as
-            distributing Nestlé, Carlsberg and other brands in the Caucasus.
+            "Iberia Refreshments" is the official bottler of PepsiCo in Georgia,
+            proudly representing the iconic brand Pepsi along with other popular
+            beverages like 7UP, Mirinda, and Aquafina. As the exclusive
+            distributor, we bring the refreshing taste of Pepsi to households
+            and consumers across the country.
+            <br /> <br /> Our commitment to excellence and quality resonates
+            with Pepsi's longstanding legacy. Embracing the PepsiCo values, we
+            strive to deliver unparalleled customer satisfaction through our
+            range of Pepsi products. From the classic Pepsi cola to the exciting
+            Pepsi flavors, we aim to quench the thirst of our valued consumers
+            and bring moments of joy to their lives. <br /> <br />
+            As a part of the global Pepsi family, we operate with integrity,
+            innovation, and a vision for a brighter future. Our team at "Iberia
+            Refreshments" is dedicated to upholding the legacy of Pepsi,
+            ensuring that each bottle carries the essence of refreshment and
+            happiness. Join us in savoring the taste of Pepsi, a symbol of joy
+            and togetherness that has been delighting generations around the
+            world."
             <br /> <br />
             <img className="pepsi" src={pepsi} alt="" />
           </p>

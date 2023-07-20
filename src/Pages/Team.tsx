@@ -29,6 +29,7 @@ export default function Story() {
       />
       <Transparent />
       <Team>
+        <h1 className="meet">Meet Our Team</h1>
         <Member
           name="Nino Mamisashvili"
           position="Chief Financial Officer"
@@ -145,6 +146,21 @@ const Main = styled.div`
   z-index: -1;
 `;
 const Team = styled.div`
+  position: relative;
+  .meet {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    opacity: 0.8;
+    letter-spacing: 0.1rem;
+  }
   overflow: hidden;
   width: calc(100%-4rem);
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);

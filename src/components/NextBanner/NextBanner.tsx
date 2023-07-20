@@ -17,13 +17,13 @@ export default function NextBanner(props: any) {
           data-aos-easing="linear"
           data-aos-duration="1500"
         />
-        <div className="container">
+        <a href={props.page} className="container">
           <Logo data-aos="zoom-in" data-aos-duration="1500" />
           <DirectText data-aos="zoom-in" data-aos-duration="1500">
             {" "}
             {props.buttonTxt}{" "}
           </DirectText>
-        </div>
+        </a>
         <RightSpacer
           style={{ borderBottom: `20px solid ${props.colorRight}` }}
           data-aos="fade-left"
@@ -55,6 +55,7 @@ const Background = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-decoration: none;
   }
 `;
 const LeftSpacer = styled.span`

@@ -19,6 +19,7 @@ function App() {
         <UnderStrip />
       </>
       <NextBanner
+        page="/Story"
         buttonTxt="OUT STORY"
         img={Tree}
         colorLeft="#ed1c24"
@@ -26,12 +27,14 @@ function App() {
         op="0.9"
       />
       <NextBanner
+        page="/Team"
         buttonTxt="OUT TEAM"
         img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />
       <NextBanner
+        page="/Retail"
         op="0.9"
         buttonTxt="FOOD & BEVERAGES AND RETAIL"
         img={Field}
@@ -39,7 +42,8 @@ function App() {
         colorRight="#FFFFFF"
       />
       <NextBanner
-        buttonTxt="VENTURE CAPITAL"
+        page="/story"
+        buttonTxt="Capital"
         img={Sea}
         colorLeft="#feb01a"
         colorRight="#FFFFFF"
