@@ -8,8 +8,29 @@ import fmg from "../assets/fmg.jpg";
 import "aos/dist/aos.css";
 import logo from "../assets/logo.png";
 import pepsi from "../assets/pepsi.png";
-
+import { Card } from "antd";
+import pepsi1 from "../assets/products/pepsi.png";
+import pepsi2 from "../assets/products/pepsi2.png";
+import max from "../assets/products/max.png";
 export default function Story() {
+  const data = [
+    {
+      key: 2,
+      saxeli: "Mirinda Orange",
+      img: pepsi1,
+    },
+    {
+      key: 3,
+      saxeli: "Pepsi Can",
+      img: pepsi2,
+    },
+    {
+      key: 4,
+      saxeli: "Pepsi 2L",
+      img: max,
+    },
+  ];
+  const { Meta } = Card;
   return (
     <>
       <>
@@ -38,6 +59,28 @@ export default function Story() {
           Our goal is to enhance consumers' choices and cultural appreciation
           while enriching lives globally.
         </p>
+        <div
+          style={{
+            padding: "50px",
+            display: "flex",
+            alignContent: "center",
+            justifyContent: "center",
+            gap: "10px",
+          }}
+        >
+          {data.map((data) => (
+            <Card
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              hoverable
+              style={{ width: 240, backgroundColor: "rgb(256,256,256,0.1)" }}
+              cover={<img alt="example" src={data.img} />}
+            >
+              <Meta title={data.saxeli}/>
+            </Card>
+          ))}
+        </div>
         <RightSpacer
           data-aos="fade-left"
           data-aos-easing="linear"
