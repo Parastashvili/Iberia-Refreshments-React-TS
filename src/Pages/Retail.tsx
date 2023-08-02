@@ -16,17 +16,17 @@ export default function Story() {
   const data = [
     {
       key: 2,
-      saxeli: "Mirinda Orange",
+      saxeli: "Pepsi Can",
       img: pepsi1,
     },
     {
       key: 3,
-      saxeli: "Pepsi Can",
+      saxeli: "Pepsi 2L",
       img: pepsi2,
     },
     {
       key: 4,
-      saxeli: "Pepsi 2L",
+      saxeli: "Max Power",
       img: max,
     },
   ];
