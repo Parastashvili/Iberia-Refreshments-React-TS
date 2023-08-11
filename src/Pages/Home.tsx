@@ -29,7 +29,7 @@ function App() {
         <UnderStrip />
       </>
       <NextBanner
-        onClick={() => navigation("/story")}
+        page="/story"
         buttonTxt="OUT STORY"
         img={Tree}
         colorLeft="#ed1c24"

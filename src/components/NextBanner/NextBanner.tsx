@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DirectText from "../Styled/DirectText.styled";
 import Logo from "../Styled/Logo.styled";
 import Transparent from "../Styled/Transparent.styled";
@@ -17,13 +18,13 @@ export default function NextBanner(props: any) {
           data-aos-easing="linear"
           data-aos-duration="1500"
         />
-        <a href={props.page} className="container">
+        <Link to={props.page} className="container">
           <Logo data-aos="zoom-in" data-aos-duration="1500" />
           <DirectText data-aos="zoom-in" data-aos-duration="1500">
             {" "}
             {props.buttonTxt}{" "}
           </DirectText>
-        </a>
+        </Link>
         <RightSpacer
           style={{ borderBottom: `20px solid ${props.colorRight}` }}
           data-aos="fade-left"
