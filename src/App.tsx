@@ -3,7 +3,7 @@ import Home from "./Pages/Home";
 import Story from "./Pages/Story";
 import Team from "./Pages/Team";
 import Retail from "./Pages/Retail";
-import Capital from "./Pages/Capital";
+import About from "./Pages/About";
 import NotFoundPage from "./Pages/Error-page";
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="/Story" element={<Story />} />
           <Route path="/Team" element={<Team />} />
           <Route path="/Retail" element={<Retail />} />
-          <Route path="/Capital" element={<Capital />} />
+          <Route path="/About" element={<About />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>

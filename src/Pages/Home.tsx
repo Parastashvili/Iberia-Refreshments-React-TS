@@ -15,11 +15,11 @@ function App() {
       <>
         <Main />
         <Header />
-        <HeroBanner />
+        <HeroBanner/>
         <UnderStrip />
       </>
       <NextBanner
-        page="/story"
+        page="/Story"
         buttonTxt="OUT STORY"
         img={Tree}
         colorLeft="#ed1c24"
@@ -27,14 +27,14 @@ function App() {
         op="0.9"
       />
       <NextBanner
-        page="/story"
+        page="/Team"
         buttonTxt="OUT TEAM"
         img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />
       <NextBanner
-        page="/story"
+        page="/Retail"
         op="0.9"
         buttonTxt="FOOD & BEVERAGES AND RETAIL"
         img={Field}
@@ -42,8 +42,8 @@ function App() {
         colorRight="#FFFFFF"
       />
       <NextBanner
-        page="/story"
-        buttonTxt="Capital"
+        page="/about"
+        buttonTxt="About Us"
         img={Sea}
         colorLeft="#feb01a"
         colorRight="#FFFFFF"

@@ -35,7 +35,7 @@ const BurgerMenu = () => {
           <li onClick={() => navigation("/Retail")}>
             FOOD & BEVERAGES AND RETAIL
           </li>
-          <li onClick={() => navigation("/Capital")}>About Us</li>
+          <li onClick={() => navigation("/About")}>About Us</li>
         </div>
       </Menu>
     </Container>
