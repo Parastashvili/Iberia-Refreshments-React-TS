@@ -51,10 +51,17 @@ const Container = styled.div`
     }
     li {
       cursor: pointer;
-      transition: 0.5s ease;
+      transition: 0.2s ease;
+      color: #212529;
+      text-align: center;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+      opacity: 1;
       &:hover {
-        transform: scale(1.1);
-        opacity: 1;
+        opacity: 0.5;
       }
     }
   }
