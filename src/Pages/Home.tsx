@@ -9,6 +9,7 @@ import Sea from "../assets/sea.jpg";
 import Footer from ".././components/Footer/Footer";
 import { styled } from "styled-components";
 import BG from "../assets/bg.png";
+import { Link } from "react-router-dom";
 function App() {
   return (
     <>
@@ -18,14 +19,15 @@ function App() {
         <HeroBanner />
         <UnderStrip />
       </>
-      <NextBanner
-        page="/Story"
-        buttonTxt="OUT STORY"
-        img={Tree}
-        colorLeft="#ed1c24"
-        colorRight="#FFFFFF"
-        op="0.9"
-      />
+      <Link to="/Story">
+        <NextBanner
+          buttonTxt="OUT STORY"
+          img={Tree}
+          colorLeft="#ed1c24"
+          colorRight="#FFFFFF"
+          op="0.9"
+        />
+      </Link>
       <NextBanner
         page="/Team"
         buttonTxt="OUT TEAM"
