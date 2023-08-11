@@ -9,17 +9,7 @@ import Sea from "../assets/sea.jpg";
 import Footer from ".././components/Footer/Footer";
 import { styled } from "styled-components";
 import BG from "../assets/bg.png";
-import { useNavigate } from "react-router-dom";
 function App() {
-  const navigate = useNavigate();
-
-  const navigation = (path: any) => {
-    navigate(path);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
   return (
     <>
       <>
@@ -37,12 +27,14 @@ function App() {
         op="0.9"
       />
       <NextBanner
+        page="/story"
         buttonTxt="OUT TEAM"
         img={Hum}
         colorLeft="#ed1c24"
         colorRight="#FFFFFF"
       />
       <NextBanner
+        page="/story"
         op="0.9"
         buttonTxt="FOOD & BEVERAGES AND RETAIL"
         img={Field}
@@ -50,6 +42,7 @@ function App() {
         colorRight="#FFFFFF"
       />
       <NextBanner
+        page="/story"
         buttonTxt="Capital"
         img={Sea}
         colorLeft="#feb01a"

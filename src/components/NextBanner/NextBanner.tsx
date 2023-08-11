@@ -8,7 +8,6 @@ export default function NextBanner(props: any) {
   return (
     <div>
       <Transparent />
-
       <Background
         style={{ backgroundImage: `url(${props.img})`, opacity: `${props.op}` }}
       >
