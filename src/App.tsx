@@ -12,9 +12,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Story" element={<Story />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/retail" element={<Retail />} />
-          <Route path="/capital" element={<Capital />} />
+          <Route path="/Team" element={<Team />} />
+          <Route path="/Retail" element={<Retail />} />
+          <Route path="/Capital" element={<Capital />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
