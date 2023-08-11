@@ -17,6 +17,8 @@ function App() {
             <Route path="Retail" element={<Retail />} />
             <Route path="About" element={<About />} />
             <Route path="*" element={<NotFoundPage />} />
+            <Route path="login" element={<About />} />
+            <Route index element={<About />} />
           </Route>
         </Routes>
       </BrowserRouter>
