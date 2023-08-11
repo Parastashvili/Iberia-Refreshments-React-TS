@@ -19,7 +19,7 @@ export default function NextBanner(props: any) {
         />
         <Link to={props.page} className="container">
           <Logo data-aos="zoom-in" data-aos-duration="1500" />
-          <DirectText data-aos="zoom-in" data-aos-duration="1500">
+          <DirectText data-aos="zoom-in" data-aos-duration="1500"  data-aos-offset="50">
             {" "}
             {props.buttonTxt}{" "}
           </DirectText>

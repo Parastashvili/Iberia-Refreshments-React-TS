@@ -47,7 +47,11 @@ export default function HeroBanner() {
         data-aos-duration="1500"
       />
       <Logo data-aos="zoom-in" data-aos-duration="1500" />
-      <DirectText data-aos="zoom-in" data-aos-duration="1500">
+      <DirectText
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-offset="50"
+      >
         {" "}
         Explore Iberia{" "}
       </DirectText>
