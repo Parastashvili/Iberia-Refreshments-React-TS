@@ -19,7 +19,7 @@ export default function Footer() {
         <li onClick={() => navigation("/Retail")}>
           Food & Beverages and Retail
         </li>
-        <li onClick={() => navigation("/Capital")}>About Us</li>
+        <li onClick={() => navigation("/About")}>About Us</li>
       </ul>
       <p>&copy; Iberia Refreshments, All Rights Reserved.</p>
     </Container>

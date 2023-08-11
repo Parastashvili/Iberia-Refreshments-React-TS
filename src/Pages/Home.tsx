@@ -42,7 +42,7 @@ function App() {
         colorRight="#FFFFFF"
       />
       <NextBanner
-        page="/about"
+        page="/About"
         buttonTxt="About Us"
         img={Sea}
         colorLeft="#feb01a"

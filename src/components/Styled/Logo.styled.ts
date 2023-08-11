@@ -12,8 +12,11 @@ const Logo = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  &:hover {
-    scale: 1.05;
+  transition: transform 0.3s ease, 
+  background-color 0.3s ease;
+  :hover {
+    transform: translateY(-10px);
+    background-color: red;
   }
 `;
 
