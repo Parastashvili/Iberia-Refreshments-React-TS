@@ -4,7 +4,6 @@ import Story from "./Pages/Story";
 import Team from "./Pages/Team";
 import Retail from "./Pages/Retail";
 import About from "./Pages/About";
-import Single from "./Pages/Single";
 import NotFoundPage from "./Pages/Error-page";
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/retail" element={<Retail />} />
         <Route path="/about" element={<About />} />
-        <Route path="/single" element={<Single />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
