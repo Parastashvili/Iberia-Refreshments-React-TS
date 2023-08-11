@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import Header from "../components/HeaderStrip/Header";
 import NextBanner from "../components/NextBanner/NextBanner";
 import sea from "../assets/sea.jpg";
-import Footer from "../components/Footer/Footer";
+import Footer from ".././components/Footer/Footer";
 import BG from "../assets/bg.png";
 import fmg from "../assets/last.png";
 import "aos/dist/aos.css";
