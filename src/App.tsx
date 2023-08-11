@@ -4,10 +4,9 @@ import Story from "./Pages/Story";
 import Team from "./Pages/Team";
 import Retail from "./Pages/Retail";
 import About from "./Pages/About";
-import NotFoundPage from "./Pages/Error-page";
+// import NotFoundPage from "./Pages/Error-page";
 function App() {
   return (
-    <>
       <BrowserRouter>
         <Routes>
           <Route path="/">
@@ -16,13 +15,10 @@ function App() {
             <Route path="Team" element={<Team />} />
             <Route path="Retail" element={<Retail />} />
             <Route path="About" element={<About />} />
-            <Route path="*" element={<NotFoundPage />} />
-            <Route path="login" element={<About />} />
-            <Route index element={<About />} />
+            {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
   );
 }
 
